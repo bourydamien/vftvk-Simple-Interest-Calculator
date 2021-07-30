@@ -12,6 +12,7 @@ function updateRate()
 function compute()
 {
     p = document.getElementById("principal").value;
+    document.getElementById("result").innerText=p;
     
 }
         
