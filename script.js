@@ -12,7 +12,7 @@ function updateRate()
 function compute()
 {
    
-    document.getElementById("result").innerText=interest;
+    document.getElementById("result").innerText=years;
     
 }
         
