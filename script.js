@@ -9,7 +9,7 @@ function compute()
 {
 var principal = document.getElementById("principal").value;
     if (principal<=0) { alert("Please enter a positive value");
-                      document.getElementById("principal").blur();}
+                      document.getElementById("principal").focus();}
     else{
 var rate = document.getElementById("rate").value;
 var years = document.getElementById("years").value;
